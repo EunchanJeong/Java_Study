@@ -13,6 +13,8 @@ public class InstanceApp {
 		p2.write("Hello 2");
 		p2.close();
 		
+		System.out.println(p1.toString());
+		//p2.toString();
 	}
 
 }
